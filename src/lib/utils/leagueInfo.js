@@ -246,7 +246,7 @@ export const managers = [
       "philosophy": "Trade for vets to compete then trade them all away for picks before the season starts",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
+    }
     
   ]
   
