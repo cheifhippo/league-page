@@ -28,7 +28,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "Moore & Moore Law": 0,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "Moore & Moore Law": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "Steven": "Your Name",
       "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "Richmond Hill": "Brooklyn", // (optional)
@@ -50,7 +50,7 @@ export const managers = [
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "Super Kamario": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "Super Kamario": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "Mario": "Your Name",
       "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maple", // (optional)
@@ -72,7 +72,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Russell",
       "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Markham", // (optional)
