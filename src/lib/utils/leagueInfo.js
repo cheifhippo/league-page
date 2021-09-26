@@ -28,10 +28,10 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "Moore & Moore Law": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "Steven": "Your Name",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "Richmond Hill": "Brooklyn", // (optional)
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Richmond Hill", // (optional)
       "bio": "9th place 2020",
       "photo": "/managers/4c36f6cc68ca5fb2daae149ee6bbee44.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
@@ -50,9 +50,9 @@ export const managers = [
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "Super Kamario": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "Mario": "Your Name",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maple", // (optional)
       "bio": "3rd place 2020",
       "photo": "/managers/870886cbf47816c68a63730021967e84.png", // square ratio recommended (no larger than 500x500)
@@ -74,7 +74,7 @@ export const managers = [
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Russell",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Markham", // (optional)
       "bio": "5th place 2020",
       "photo": "/managers/0ac170835bae45fa33eec936a77cfbbc.png", // square ratio recommended (no larger than 500x500)
@@ -96,7 +96,7 @@ export const managers = [
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Ishaan",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Richmond Hill", // (optional)
       "bio": "10th place 2020",
       "photo": "/managers/4fb394f49d806fbad75dd79ecc68f525.png", // square ratio recommended (no larger than 500x500)
@@ -118,7 +118,7 @@ export const managers = [
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Joseph",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Vaughan", // (optional)
       "bio": "4th place 2020",
       "photo": "/managers/04955f716b6701c974916c3f24ba2b4e.png", // square ratio recommended (no larger than 500x500)
@@ -140,7 +140,7 @@ export const managers = [
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Benjamin",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Markham", // (optional)
       "bio": "7th place 2020",
       "photo": "/managers/8929a8ca1cc6219869e162c8f26f1bc4.png", // square ratio recommended (no larger than 500x500)
@@ -162,7 +162,7 @@ export const managers = [
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Francesco",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Richmond Hill", // (optional)
       "bio": "2nd place 2020",
       "photo": "/managers/9781b1adbf89c38b0c8a022be6971695.png", // square ratio recommended (no larger than 500x500)
@@ -184,7 +184,7 @@ export const managers = [
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Zachary",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Vaughan", // (optional)
       "bio": "8th place 2020",
       "photo": "/managers/7238961f013098277d390a2f47b549fc.png", // square ratio recommended (no larger than 500x500)
@@ -206,7 +206,7 @@ export const managers = [
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Mateo",
-      "null": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Richmond Hill", // (optional)
       "bio": "1st place 2020",
       "photo": "/managers/d8b367a9353d4a1b03b8714233ced278.png", // square ratio recommended (no larger than 500x500)
