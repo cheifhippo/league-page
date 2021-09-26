@@ -29,7 +29,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "Steven": "Your Name",
+      "name": "Steven",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Richmond Hill", // (optional)
       "bio": "9th place 2020",
@@ -51,7 +51,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "Mario": "Your Name",
+      "name": "Mario",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maple", // (optional)
       "bio": "3rd place 2020",
